@@ -1,0 +1,22 @@
+portfolio:
+  title: Portfolio
+  mission: Mission sheet
+
+
+
+
+project_symfony:
+  title: Symfony project
+  description: Project consisting in creating the website of a fictitious gym, using the php framework Symfony.
+  sources: Project sources on GitHub
+
+
+
+
+project_react:
+  title: Projet React
+  description: Project consisting in creating the website of a fictitious gym, using the php framework Symfony to perform the operations and access data. A Rest Api is integrated using
+    the php ApiPlatform library. A graphical React app (JavaScript framework) is created and uses the api.
+  sources:
+    api: Project sources (Api) on GitHub
+    react: Project sources (React app) on GitHub

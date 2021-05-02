@@ -1,0 +1,16 @@
+<header id="top">
+    <div class="home">
+        <div class="home-content">
+            {% import "macro/menu.html.twig" as macroMenu %}
+            {{ macroMenu.menu("home") }}
+            <div class="home-banner">
+                <h1 class="parallax" data-parallax-rate-h="-5">{% trans %}home.firstname{% endtrans %}</h1>
+                <p>{% trans %}home.description{% endtrans %}</p>
+                <h1 class="parallax" data-parallax-rate-h="5">{% trans %}home.lastname{% endtrans %}</h1>
+            </div>
+            <div class="scroll-button">
+                <p><a href="#presentation"><span></span>Scroll</a></p>
+            </div>
+        </div>
+    </div>
+</header>

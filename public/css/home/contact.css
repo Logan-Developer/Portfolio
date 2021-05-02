@@ -1,0 +1,44 @@
+.contact-content {
+    text-align: center;
+}
+
+.contact-grid {
+    display: grid;
+    row-gap: 10px;
+    grid-template-areas: "contact-phone-icon contact-email-icon"
+                         "contact-phone-text contact-email-text"
+                         "contact-github-icon contact-linkedin-icon"
+                         "contact-github-text contact-linkedin-text";
+}
+
+.contact-phone-icon {
+    grid-area: contact-phone-icon;
+}
+
+.contact-email-icon {
+    grid-area: contact-email-icon;
+}
+
+.contact-phone-text {
+    grid-area: contact-phone-text;
+}
+
+.contact-email-text {
+    grid-area: contact-email-text;
+}
+
+.contact-github-icon {
+    grid-area: contact-github-icon;
+}
+
+.contact-linkedin-icon {
+    grid-area: contact-linkedin-icon;
+}
+
+.contact-github-text {
+    grid-area: contact-github-text;
+}
+
+.contact-linkedin-text {
+    grid-area: contact-linkedin-text;
+}

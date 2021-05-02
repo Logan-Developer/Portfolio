@@ -1,0 +1,34 @@
+.interests-content {
+    text-align: center;
+}
+
+.interests-grid {
+    display: grid;
+    row-gap: 10px;
+    grid-template-areas: "interests-journeys-icon interests-programming-icon interests-cinema-icon"
+                         "interests-journeys-text interests-programming-text interests-cinema-text";
+}
+
+.interests-journeys-icon {
+    grid-area: interests-journeys-icon;
+}
+
+.interests-programming-icon {
+    grid-area: interests-programming-icon;
+}
+
+.interests-cinema-icon {
+    grid-area: interests-cinema-icon;
+}
+
+.interests-journeys-text {
+    grid-area: interests-journeys-text;
+}
+
+.interests-programming-text {
+    grid-area: interests-programming-text;
+}
+
+.interests-cinema-text {
+    grid-area: interests-cinema-text;
+}

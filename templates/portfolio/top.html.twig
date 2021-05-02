@@ -1,0 +1,41 @@
+<header id="top">
+    {% import "macro/menu.html.twig" as macroMenu %}
+    {{ macroMenu.menu("portfolio") }}
+</header>
+<div id="portfolio">
+    <div class="portfolio-content">
+        <h1>{% trans %}portfolio.title{% endtrans %}</h1>
+        <div class="portfolio-grid">
+            <div class="portfolio-project-symfony card">
+                <div class="card-header">
+                    <p>{% trans %}project_symfony.title{% endtrans %}</p>
+                </div>
+                <div class="card-body">
+                    <ul>
+                        <li>{% trans %}project_symfony.description{% endtrans %}</li>
+                        <div class="horizontal-line"></div>
+                        <li><a href="https://github.com/Logan-Developer/MuscuProject">{% trans %}project_symfony.sources{% endtrans %}</a></li>
+                        <div class="horizontal-line"></div>
+                        <li><a href="{{ asset('raw/MissionE4_Symfony.pdf') }}">{% trans %}portfolio.mission{% endtrans %}</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="portfolio-project-react card">
+                <div class="card-header">
+                    <p>{% trans %}project_react.title{% endtrans %}</p>
+                </div>
+                <div class="card-body">
+                    <ul>
+                        <li>{% trans %}project_react.description{% endtrans %}</li>
+                        <div class="horizontal-line"></div>
+                        <li><a href="https://github.com/Logan-Developer/CoachApp-Api">{% trans %}project_react.sources.api{% endtrans %}</a></li>
+                        <br>
+                        <li><a href="https://github.com/Logan-Developer/CoachApp-React">{% trans %}project_react.sources.react{% endtrans %}</a></li>
+                        <div class="horizontal-line"></div>
+                        <li><a href="{{ asset('raw/MissionE4_Symfony.pdf') }}">{% trans %}portfolio.mission{% endtrans %}</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

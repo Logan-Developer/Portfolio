@@ -1,0 +1,25 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}{% trans %}home.title{% endtrans %}{% endblock %}
+{% block stylesheets %}
+    <link rel="stylesheet" href="{{ asset('css/home/top.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/home/presentation.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/home/formation.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/home/professional_experiences.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/home/interests.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/home/contact.css') }}">
+{% endblock %}
+{% block javascripts %}
+    <script rel="prefetch" src="{{ asset('js/parallax.js') }}"></script>
+    <script rel="prefetch" src="{{ asset('js/scrollingEffects.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('js/skillbarsAnim.js') }}"></script>
+{% endblock %}
+
+{% block body %}
+    {% include 'home/top.html.twig' %}
+    {% include 'home/presentation.html.twig' %}
+    {% include 'home/formation.html.twig' %}
+    {% include 'home/professional_experiences.html.twig' %}
+    {% include 'home/interests.html.twig' %}
+    {% include 'home/contact.html.twig' %}
+{% endblock %}

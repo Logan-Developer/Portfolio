@@ -1,0 +1,19 @@
+{% macro menu(activeMenu) %}
+    <div class="navbar">
+        <a href="{{ path('app_home') }}">{{ 'name'|trans }}</a>
+        <div class="menu-wrap">
+            <input type="checkbox" class="toggler">
+            <div class="hamburger"><div></div></div>
+            <div class="menu">
+                <div>
+                    <div>
+                        <ul>
+                            <li><a href="/">{% trans %}home.title{% endtrans %}</a></li>
+                            <li><a href="{{ path('app_portfolio') }}">{% trans %}portfolio.title{% endtrans %}</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endmacro %}

@@ -1,19 +1,39 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
     <head>
         <meta charset="UTF-8">
-        <title>{% block title %}Welcome!{% endblock %}</title>
-        {# Run `composer require symfony/webpack-encore-bundle`
-           and uncomment the following Encore helpers to start using Symfony UX #}
-        {% block stylesheets %}
-            {#{{ encore_entry_link_tags('app') }}#}
-        {% endblock %}
-
-        {% block javascripts %}
-            {#{{ encore_entry_script_tags('app') }}#}
-        {% endblock %}
+        <title>{% block title %}{% endblock %} - {% trans %}name{% endtrans %}</title>
+        <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+        <link rel="stylesheet" href="{{ asset('css/navigation.css') }}">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto+Slab:wght@700&display=swap" rel="stylesheet">
+        <link rel="prefetch stylesheet" href="{{ asset('css/loader.css') }}">
+        {% block stylesheets %}{% endblock %}
+        <script
+                src="https://code.jquery.com/jquery-3.6.0.min.js"
+                integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+                crossorigin="anonymous"></script>
     </head>
     <body>
+        <div class="loader">
+            <span class="letter">L</span>
+            <span class="letter">O</span>
+            <span class="letter">A</span>
+            <span class="letter">D</span>
+            <span class="letter">I</span>
+            <span class="letter">N</span>
+            <span class="letter">G</span>
+        </div>
         {% block body %}{% endblock %}
+        <footer>
+            <div>
+                <p>&#xA9; {% trans %}footer.copyright{% endtrans %}</p>
+                <br>
+                <a href="{{ path('app_mentions') }}">{% trans %}footer.legal_mentions{% endtrans %}</a>
+            </div>
+        </footer>
+        <script rel="prefetch" src="{{ asset('js/loader.js') }}"></script>
+        {% block javascripts %}{% endblock %}
     </body>
 </html>

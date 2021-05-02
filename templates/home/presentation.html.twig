@@ -1,0 +1,102 @@
+<section id="presentation">
+    <div class="presentation-content">
+        <div class="card">
+            <div class="card-body presentation-grid">
+                <div id="presentation-infos">
+                    <p><span>{% trans %}presentation_section.name{% endtrans %} - {% trans %}presentation_section.age{% endtrans %}</span></p>
+                    <br>
+                    <p><span>{% trans %}presentation_section.formation{% endtrans %}</span></p>
+                    <br>
+                    <p><span>{% trans %}presentation_section.email.title{% endtrans %}:</span>
+                        {% trans %}presentation_section.email.text{% endtrans %}</p>
+                    <br>
+                    <p><span>{% trans %}presentation_section.phone.title{% endtrans %}:</span>
+                        {% trans %}presentation_section.phone.text{% endtrans %}</p>
+                    <br>
+                    <p><span>{% trans %}presentation_section.address.title{% endtrans %}:</span>
+                        {% trans %}presentation_section.address.text{% endtrans %}</p>
+                    <br>
+                </div>
+                <div class="presentation-resume">
+                    <h2>{% trans %}presentation_section.resume.title{% endtrans %}</h2>
+                    <p>{% trans %}presentation_section.resume.text{% endtrans %}</p>
+                </div>
+                <div class="presentation-cv">
+                    <h3>{% trans %}presentation_section.cv.title{% endtrans %}</h3>
+                    <br>
+                    <a target="_blank" href="{{ asset("raw/CV_HUMBERT_Logan.pdf") }}">{% trans %}presentation_section.cv.button{% endtrans %}</a>
+                </div>
+                <div class="presentation-skills glass-morphism">
+                    <h2>{% trans %}presentation_section.skills.title{% endtrans %}</h2>
+                    <div class="skillbar" data-percent="80%">
+                        <span class="skillbar-title">{% trans %}presentation_section.skills.html_css{% endtrans %}</span>
+                        <span class="skillbar-bar"></span>
+                        <span class="skillbar-progress">{% trans %}presentation_section.skills.levels.very_high{% endtrans %}</span>
+                    </div>
+                    <div class="skillbar" data-percent="80%">
+                        <span class="skillbar-title">{% trans %}presentation_section.skills.java{% endtrans %}</span>
+                        <p class="skillbar-bar"></p>
+                        <span class="skillbar-progress">{% trans %}presentation_section.skills.levels.very_high{% endtrans %}</span>
+                    </div>
+                    <div class="skillbar" data-percent="70%">
+                        <span class="skillbar-title">{% trans %}presentation_section.skills.php{% endtrans %}</span>
+                        <p class="skillbar-bar"></p>
+                        <span class="skillbar-progress">{% trans %}presentation_section.skills.levels.high{% endtrans %}</span>
+                    </div>
+                    <div class="skillbar" data-percent="70%">
+                        <span class="skillbar-title">{% trans %}presentation_section.skills.symfony{% endtrans %}</span>
+                        <p class="skillbar-bar"></p>
+                        <span class="skillbar-progress">{% trans %}presentation_section.skills.levels.high{% endtrans %}</span>
+                    </div>
+                    <div class="skillbar" data-percent="70%">
+                        <span class="skillbar-title">{% trans %}presentation_section.skills.linux{% endtrans %}</span>
+                        <p class="skillbar-bar"></p>
+                        <span class="skillbar-progress">{% trans %}presentation_section.skills.levels.high{% endtrans %}</span>
+                    </div>
+                    <div class="skillbar" data-percent="70%">
+                        <span class="skillbar-title">{% trans %}presentation_section.skills.sql{% endtrans %}</span>
+                        <p class="skillbar-bar"></p>
+                        <span class="skillbar-progress">{% trans %}presentation_section.skills.levels.high{% endtrans %}</span>
+                    </div>
+                    <div class="skillbar" data-percent="55%">
+                        <span class="skillbar-title">{% trans %}presentation_section.skills.c#{% endtrans %}</span>
+                        <p class="skillbar-bar"></p>
+                        <span class="skillbar-progress">{% trans %}presentation_section.skills.levels.medium{% endtrans %}</span>
+                    </div>
+                    <div class="skillbar" data-percent="55%">
+                        <span class="skillbar-title">{% trans %}presentation_section.skills.javascript{% endtrans %}</span>
+                        <p class="skillbar-bar"></p>
+                        <span class="skillbar-progress">{% trans %}presentation_section.skills.levels.medium{% endtrans %}</span>
+                    </div>
+                    <div class="skillbar" data-percent="40%">
+                        <span class="skillbar-title">{% trans %}presentation_section.skills.react{% endtrans %}</span>
+                        <p class="skillbar-bar"></p>
+                        <span class="skillbar-progress">{% trans %}presentation_section.skills.levels.beginner{% endtrans %}</span>
+                    </div>
+                    <div class="skillbar" data-percent="40%">
+                        <span class="skillbar-title">{% trans %}presentation_section.skills.vuejs{% endtrans %}</span>
+                        <p class="skillbar-bar"></p>
+                        <span class="skillbar-progress">{% trans %}presentation_section.skills.levels.beginner{% endtrans %}</span>
+                    </div>
+                </div>
+                <div class="presentation-languages">
+                    <h2>{% trans %}presentation_section.languages.title{% endtrans %}</h2>
+                    <div>
+                        <div>
+                            <p>{% trans %}presentation_section.languages.french.title{% endtrans %}</p>
+                            <img src="{{ asset('img/flag-france.png') }}" alt="{% trans %}presentation_section.languages.french.image_description{% endtrans %}">
+                        </div>
+                        <div>
+                            <p>{% trans %}presentation_section.languages.english.title{% endtrans %}</p>
+                            <img src="{{ asset('img/flag-england.png') }}" alt="{% trans %}presentation_section.languages.english.image_description{% endtrans %}">
+                        </div>
+                        <div>
+                            <p>{% trans %}presentation_section.languages.spanish.title{% endtrans %}</p>
+                            <img src="{{ asset('img/flag-spain.png') }}" alt="{% trans %}presentation_section.languages.spanish.image_description{% endtrans %}">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

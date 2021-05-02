@@ -1,0 +1,10 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}{% trans %}portfolio.title{% endtrans %}{% endblock %}
+{% block stylesheets %}
+    <link rel="stylesheet" href="{{ asset('css/portfolio/top.css') }}">
+{% endblock %}
+
+{% block body %}
+    {% include 'portfolio/top.html.twig' %}
+{% endblock %}

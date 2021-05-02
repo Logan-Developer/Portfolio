@@ -1,0 +1,22 @@
+portfolio:
+  title: Portfolio
+  mission: Fiche mission
+
+
+
+
+project_symfony:
+  title: Projet Symfony
+  description: Projet consistant à créer le site internet d'une salle de sport fictive, en utilisant le framework php Symfony.
+  sources: Sources du projet sur GitHub
+
+
+
+
+project_react:
+  title: Projet React
+  description: Projet consistant à créer le site internet d'une salle de sport fictive, en utilisant le framework php Symfony pour effectuer les traitements
+    et accéder aux données. Une Api Rest est intégrée en utilisant la librairie php ApiPlatform. Une application graphique React (framework javascript) est crée et exploite l'Api.
+  sources:
+    api: Sources du projet (Api) sur GitHub
+    react: Sources du projet (React app) sur GitHub

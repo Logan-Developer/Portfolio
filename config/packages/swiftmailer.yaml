@@ -1,0 +1,5 @@
+swiftmailer:
+    transport: smtp
+    auth_mode: login
+    url: '%env(MAILER_URL)%'
+    spool: { type: 'memory' }

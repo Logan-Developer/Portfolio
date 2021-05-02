@@ -1,0 +1,49 @@
+#portfolio {
+    position: relative;
+    margin-top: 100px;
+    width: 80%;
+    height: 83.1vh;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+.portfolio-content {
+    text-align: center;;
+}
+
+.navbar {
+    background-color: black;
+}
+
+.portfolio-grid {
+    display: grid;
+    grid-template-areas: "portfolio-project-symfony portfolio-project-react";
+    column-gap: 20%;
+}
+
+.portfolio-grid a {
+
+    padding: 5px;
+    color: black;
+    text-decoration: none;
+    border: 2px solid antiquewhite;
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
+
+.portfolio-project-symfony {
+    grid-area: portfolio-project-symfony;
+}
+
+.portfolio-project-react {
+    grid-area: portfolio-project-react;
+}
+
+.portfolio-project-symfony ul {
+    list-style: none;
+}
+
+.portfolio-project-react ul {
+    list-style: none;
+}

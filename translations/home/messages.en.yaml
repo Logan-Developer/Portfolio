@@ -1,0 +1,147 @@
+home:
+  title: Home
+  firstname: Logan
+  lastname: Humbert
+  description: I am an IT research and development engineer apprentice
+
+
+
+
+presentation_section:
+  name: Logan Humbert
+  age: 19 years old
+  formation: Apprentice in the french Btech IT Services to Organisations (SIO) and in the french company SkinSoft
+  email:
+    title: Email address
+    text: logan2.humbert@gmail.com
+  phone:
+    title: Phone
+    text: +33 (0)7.68.52.32.76
+  address:
+    title: Address
+    text: Besançon, France
+  resume:
+    title: Who am i?
+    text: I am Logan Humbert, apprentice in the french Btech IT Services to Organisations (SIO), and in the french company SkinSoft. I am passionated by IT development in it's
+      different forms. I like to make websites, mobile and desktop applications, and I really want to pursue this way to become an IT developer.
+      During my free time, i create different programms and i try to learn by myself new things.  For example, i am currently trying to learn the test driven development, wich is
+      for me a very efficient method of coding.
+      On top of that, i am very autonomous, reliable, and i am capable of returning all tasks entrusted to me, in time and respecting all expectations.
+      My professors were able to see that multiple times, especially during the lockdown due to the sanitary crisis.
+      I think that all these qualities will be real assets for my professional career.
+  skills:
+    title: My skills
+    html_css: Html - Css
+    java: Java
+    php: Php
+    symfony: Symfony
+    linux: Linux
+    sql: SQL
+    c#: C#
+    javascript: JavaScript
+    react: React
+    vuejs: VueJs
+    levels:
+      beginner: Beginner
+      medium: Medium knowledge
+      high: High knowledge
+      very_high: Very high knowledge
+  cv:
+    title: You want to retrieve all the information about me?
+    button: Download my CV (in french)
+  languages:
+    title: My languages
+    french:
+      title: French (native language)
+      image_description: France flag
+    english:
+      title: English (B2 french level)
+      image_description: England flag
+    spanish:
+      title: Spanish (B1 french level)
+      image_description: Spain flag
+
+
+
+
+formation_section:
+  title: My formation
+  2019_to_today:
+    title: 2019 to today - Btech IT Services to Organisations (SIO)
+    address: Louis Pergaud High School, Besançon, France
+    it_development:
+      title: IT Development
+      description: algorithmics, programming languages, basic concepts of object-oriented programming
+    databases:
+      title: Databases
+      description: MERISE design and representation, SQL queries, concepts of views, inheritance and triggers
+    it_architecture:
+      title: IT Architecture
+      description: operation of computers and their components
+    network:
+      title: Network
+      description: basic concepts about networks and subnets
+    general_education:
+      title: General education
+      description: mathematics, english, general knowledge
+    mathematics_advanced: Optional advanced mathematics education
+  june_2019:
+    title: June 2019 - French scientific degree "baccalauréat"
+    address: Victor Hugo High School, Besançon, France
+    description: General education, science-oriented (a lot of mathematics, physics-chemistry, electronics and mechanics)
+
+
+
+
+professional_experiences_section:
+  title: Professional experiences
+  september_august_2020_2021:
+    title: September 2020-August 2021 – Apprenticeship – SkinSoft, Besançon, France
+    description: SkinSoft is a french company proposing full web solutions for collection management
+    realised_tasks1: Development of a collection management software (add of functionalities, improvement of existing functionalities, bug fixes)
+    realised_tasks2: Discovery of the VueJs technology (javascript), and the SpringBoot technology (java)
+    realised_tasks3: Discovery of the agile working method (sprint operation, daily meeting about the progress)
+    realised_tasks4: Use of a version control tool (git) in a large project
+  january_february_2016:
+    title: January-February 2016 – Discovery internship – Meta4, Besançon, France
+    description: Meta4 is an I.T company offering softwares and services for the payroll management and the human resources management
+    realised_tasks: Observation of the functioning of different services - Quality assurance, technical service and sending service
+
+
+
+
+interests_section:
+  title: Interests
+  journeys:
+    title: Journeys
+    image_description: Map
+  programming:
+    title: Programming
+    image_description: Code
+  cinema:
+    title: Cinema
+    image_description: Clap
+
+
+
+
+contact_section:
+  description: If you are interested by my profile or if you want more information, you can contact me by email, by phone, or using the form below
+  sending_message_error: Impossible to send your message. Please retry later.
+  sending_message_success: Your message has been sent! It will be read as soon as possible.
+  mail: Mail
+  object: Object
+  message: Message
+  send: Send
+  phone:
+    title: +33 (0)7.68.52.32.76
+    image_description: Phone
+  mail_address:
+    title: logan2.humbert@gmail.com
+    image_description: Email
+  github:
+    title: GitHub
+    image_description: GitHub
+  linkedin:
+    title: LinkedIn
+    image_description: LinkedIn

@@ -1,0 +1,83 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}{% trans %}mentions.title{% endtrans %}{% endblock %}
+{% block stylesheets %}
+    <link rel="stylesheet" href="{{ asset('css/mentions/mentions.css') }}">
+{% endblock %}
+
+{% block body %}
+    <header id="top">
+        {% import "macro/menu.html.twig" as macroMenu %}
+        {{ macroMenu.menu("mentions") }}
+    </header>
+    <section id="mentions">
+        <div class="mentions-content card">
+            <div class="card-header"><h1>{% trans %}body.title{% endtrans %}</h1></div>
+            <div class="card-body">
+                <h3>{% trans %}body.chap1.title{% endtrans %}</h3>
+                <p>{% trans %}body.chap1.description1-1 {% endtrans %} <a href="http://www.logan-humbert.tk/">{% trans %}body.website_link{% endtrans %}</a> {% trans %}body.chap1.description1-2{% endtrans %}</p>
+                <p><strong>{% trans %}body.chap1.owner {% endtrans %}</strong> : {% trans %}body.name{% endtrans %} –  – {% trans %}body.address{% endtrans %}<br/>
+                    <strong>{% trans %}body.chap1.creator {% endtrans %}</strong>  : <a href="https://www.logan-humbert.tk">{% trans %}body.name{% endtrans %}</a><br/>
+                    <strong>{% trans %}body.chap1.publication_manager.title {% endtrans %}</strong> : {% trans %}body.name{% endtrans %}<br/>
+                    {% trans %}body.chap1.publication_manager.description {% endtrans %}<br/>
+                    <strong>{% trans %}body.chap1.webmaster{% endtrans %}</strong> : {% trans %}body.name{% endtrans %} – {% trans %}body.chap1.email{% endtrans %}<br/>
+                    <strong>{% trans %}body.chap1.host.title{% endtrans %}</strong> : <a href="https://dyjix.eu/">{% trans %}body.chap1.host.name{% endtrans %}</a> – {% trans %}body.chap1.host.address{% endtrans %}<br/>
+                    {% trans %}body.chap1.credits.title{% endtrans %} : <br/>
+                    {% trans %}body.chap1.credits.description{% endtrans %} <a target="_blank" href="https://www.subdelirium.com/generateur-de-mentions-legales/"></a>{% trans %}body.chap1.credits.link{% endtrans %}</p>
+
+                <h3>{% trans %}body.chap2.title{% endtrans %}</h3>
+                <p>{% trans %}body.chap2.description1-1{% endtrans %} <a href="http://www.logan-humbert.tk/">{% trans %}body.website_link{% endtrans %}</a> {% trans %}body.chap2.description1-2{% endtrans %} <a href="http://www.logan-humbert.tk/">{% trans %}body.website_link{% endtrans %}</a> {% trans %}body.chap2.description1-3{% endtrans %}</p>
+                <p>{% trans %}body.chap2.description2{% endtrans %}</p>
+                <p>{% trans %}body.chap2.description3-1{% endtrans %} <a href="http://www.logan-humbert.tk/">{% trans %}body.website_link{% endtrans %}</a> {% trans %}body.chap2.description3-2{% endtrans %} : {% trans %}body.chap2.description3-3{% endtrans %}</p>
+
+                <h3>{% trans %}body.chap3.title{% endtrans %}</h3>
+                <p>{% trans %}body.chap3.description1-1{% endtrans %} <a href="http://www.logan-humbert.tk/"></a> {% trans %}body.chap3.description1-2{% endtrans %}</p>
+                <p>{% trans %}body.chap3.description2-1{% endtrans %} <a href="http://www.logan-humbert.tk/">{% trans %}body.website_link{% endtrans %}</a> {% trans %}body.chap3.description2-2{% endtrans %}</p>
+                <p>{% trans %}body.chap3.description3-1{% endtrans %} <a href="http://www.logan-humbert.tk/">{% trans %}body.website_link{% endtrans %}</a> {% trans %}body.chap3.description3-2{% endtrans %} <a href="http://www.logan-humbert.tk/">{% trans %}body.website_link{% endtrans %}</a> {% trans %}body.chap3.description3-3{% endtrans %}</p>
+                <h3>{% trans %}body.chap4.title{% endtrans %}</h3>
+
+                <p>{% trans %}body.chap4.description1{% endtrans %}</p>
+                <p>{% trans %}body.chap4.description2{% endtrans %}</p>
+
+                <h3>{% trans %}body.chap5.title{% endtrans %}</h3>
+                <p>{% trans %}body.chap5.description1{% endtrans %}</p>
+                <p>{% trans %}body.chap5.description2{% endtrans %} : {% trans %}body.name{% endtrans %}</p>
+                <p>{% trans %}body.chap5.description3{% endtrans %}</p>
+
+                <h3>{% trans %}body.chap6.title{% endtrans %}</h3>
+                <p>{% trans %}body.chap6.description1{% endtrans %}</p>
+                <p>{% trans %}body.chap6.description2{% endtrans %} <a href="http://www.logan-humbert.tk/">{% trans %}body.website_link{% endtrans %}</a>.</p>
+                <p>{% trans %}body.chap6.description3{% endtrans %}</p>
+
+                <h3>{% trans %}body.chap7.title{% endtrans %}</h3>
+                <p>{% trans %}body.chap7.description1{% endtrans %}</p>
+                <p>{% trans %}body.chap7.description2-1{% endtrans %} <a href="http://www.logan-humbert.tk/">{% trans %}body.website_link{% endtrans %}</a>, {% trans %}body.chap7.description2-2{% endtrans %} : {% trans %}body.chap7.description2-3{% endtrans %} <a href="http://www.logan-humbert.tk/">{% trans %}body.website_link{% endtrans %}</a>, {% trans %}body.chap7.description2-4{% endtrans %}</p>
+                <p>{% trans %}body.chap7.description3-1{% endtrans %} <a href="http://www.logan-humbert.tk/">{% trans %}body.website_link{% endtrans %}</a>. {% trans %}body.chap7.description3-2{% endtrans %} <a href="http://www.logan-humbert.tk/">{% trans %}body.website_link{% endtrans %}</a> {% trans %}body.chap7.description3-3{% endtrans %}</p>
+                <p>{% trans %}body.chap7.description4{% endtrans %}</p>
+                <p>{% trans %}body.chap7.description5-1{% endtrans %} <a href="http://www.logan-humbert.tk/">{% trans %}body.website_link{% endtrans %}</a> {% trans %}body.chap7.description5-2{% endtrans %} <a href="http://www.logan-humbert.tk/">{% trans %}body.website_link{% endtrans %}</a>.</p>
+                <p>{% trans %}body.chap7.description6{% endtrans %}</p>
+
+                <h3>{% trans %}body.chap8.title{% endtrans %}</h3>
+                <p>{% trans %}body.chap8.description1-1{% endtrans %} <a href="http://www.logan-humbert.tk/">{% trans %}body.website_link{% endtrans %}</a> {% trans %}body.chap8.description1-2{% endtrans %}</p>
+                <p>{% trans %}body.chap8.description2-1{% endtrans %} <a href="http://www.logan-humbert.tk/">{% trans %}body.website_link{% endtrans %}</a> {% trans %}body.chap8.description2-2{% endtrans %}</p>
+                <p>{% trans %}body.chap8.description3{% endtrans %} :</p>
+                <p>{% trans %}body.chap8.description4-1{% endtrans %} : {% trans %}body.chap8.description4-2{% endtrans %}</p>
+                <p>{% trans %}body.chap8.description5-1{% endtrans %} : {% trans %}body.chap8.description5-2{% endtrans %}
+                    {% trans %}body.chap8.description5-3{% endtrans %} : {% trans %}body.chap8.description5-4{% endtrans %}</p>
+                <p>{% trans %}body.chap8.description6-1{% endtrans %} : {% trans %}body.chap8.description6-2{% endtrans %}</p>
+                <p>{% trans %}body.chap8.description7-1{% endtrans %} : {% trans %}body.chap8.description7-2{% endtrans %}</p>
+
+                <h3>{% trans %}body.chap9.title{% endtrans %}</h3>
+                <p>{% trans %}body.chap9.description1-1{% endtrans %} <a href="http://www.logan-humbert.tk/">{% trans %}body.website_link{% endtrans %}</a> {% trans %}body.chap9.description1-2{% endtrans %}</p>
+
+                <h3>{% trans %}body.chap10.title{% endtrans %}</h3>
+                <p>{% trans %}body.chap10.description1{% endtrans %}</p>
+                <p>{% trans %}body.chap10.description2{% endtrans %}</p>
+
+                <h3>{% trans %}body.chap11.title{% endtrans %}</h3>
+                <p>{% trans %}body.chap11.description1-1{% endtrans %} : {% trans %}body.chap11.description1-2{% endtrans %}</p>
+                <p>{% trans %}body.chap11.description2-1{% endtrans %} : {% trans %}body.chap11.description2-2{% endtrans %}</p>
+            </div>
+        </div>
+    </section>
+{% endblock %}

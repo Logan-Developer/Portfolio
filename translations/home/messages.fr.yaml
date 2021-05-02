@@ -1,0 +1,146 @@
+home:
+  title: Accueil
+  firstname: Logan
+  lastname: Humbert
+  description: Je suis apprenti ingénieur en recherche et développement informatique
+
+
+
+
+presentation_section:
+  name: Logan Humbert
+  age: 19 ans
+  formation: Apprenti en BTS Services Informatiques aux Organisations (SIO) et dans la société SkinSoft
+  email:
+    title: Adresse mail
+    text: logan2.humbert@gmail.com
+  phone:
+    title: Téléphone
+    text: +33 (0)7.68.52.32.76
+  address:
+    title: Addresse
+    text: Besançon, France
+  resume:
+    title: Qui suis-je?
+    text: Je suis Logan Humbert, apprenti en BTS Services informatiques aux organisations (SIO), et dans la société SkinSoft. Je suis passionné par le développement informatique dans
+      ses différents formes. J'aime réaliser des sites internet, des applications mobiles et de bureau, et j'aimerais réellement poursuivre cette voie afin de devenir ingénieur
+      en recherche et développement informatique. Durant mon temps libre, je créé différents programmes et j'essaie d'apprendre de nouvelles choses par moi-même.
+      Par exemple, je suis actuellement en train d'essayer d'apprendre le "Test driven development", qui est pour moi une manière très efficace pour programmer.
+      De plus, je suis très autonome, fiable, et je suis capable de rendre toutes les tâches qui me sont confiées, dans les temps et en respectant toutes les attentes.
+      Mes professeurs ont pu l'observer à de multiples reprises, notamment pendant le confinement dû à la crise sanitaire.
+  skills:
+    title: Mes compétences
+    html_css: Html - Css
+    java: Java
+    php: Php
+    symfony: Symfony
+    linux: Linux
+    sql: SQL
+    c#: C#
+    javascript: JavaScript
+    react: React
+    vuejs: VueJs
+    levels:
+      beginner: Débutant
+      medium: Connaissances moyennes
+      high: Bonnes connaissances
+      very_high: Très bonnes connaissances
+  cv:
+    title: Vous souhaitez retrouver toutes les informations me concernant?
+    button: Téléchargez mon CV
+  languages:
+    title: Mes langues
+    french:
+      title: Français (langue maternelle)
+      image_description: Drapeau français
+    english:
+      title: Anglais (Niveau B2)
+      image_description: Drapeau anglais
+    spanish:
+      title: Espagnol (Niveau B1)
+      image_description: Drapeau espagnol
+
+
+
+
+formation_section:
+  title: Ma formation
+  2019_to_today:
+    title: 2019 à aujourd'hui - BTS Services Informatiques aux Organisations (SIO)
+    address: Lycée Louis Pergaud, Besançon, France
+    it_development:
+      title: Développement informatique
+      description: Algorithmique, langages de programmation, concepts de base de la programmation orientée objet
+    databases:
+      title: Bases de données
+      description: Conception et représentation MERISE, reqêtes SQL, concepts de vues, d'héritage et de déclencheurs
+    it_architecture:
+      title: Architecture innformatique
+      description: Fonctionnement des ordinateurs et de leurs composants
+    network:
+      title: Réseau
+      description: Concepts de base sur les réseaux et sous-réseaux
+    general_education:
+      title: Education générale
+      description: mathématiques, anglais, culture générale
+    mathematics_advanced: Enseignement facultatif de mathématiques approfondies
+  june_2019:
+    title: Juin 2019 - baccalauréat scientifique
+    address: Lycée Victor Hugo, Besançon, France
+    description: Enseignement général orienté vers les sciences (beaucoup de mathématiques, de physique-chimie, d'électronique et de mécanique)
+
+
+
+
+professional_experiences_section:
+  title: Expériences professionnelles
+  september_august_2020_2021:
+    title: Septembre 2020-Août 2021 – Apprntissage – SkinSoft, Besançon, France
+    description: SkinSoft est une société française proposant des solutions full web pour la gestion de collections
+    realised_tasks1: Développement d'un logiciel de gestion de collections (ajout de fonctionnalités, amélioration de fonctionnalités existantes, correction de bogues)
+    realised_tasks2: Découverte de la technologies VueJS (JavaScript), et de la technologie SpringBoot (Java)
+    realised_tasks3: Découverte de la méthode de travail agile (fonctionnement par sprints, réunion quotidienne concernant l'avancement)
+    realised_tasks4: Utilisation d'un outil de contôle de version (git) dans le cadre d'un projet conséquent
+  january_february_2016:
+    title: Janvier-February 2016 – Stage de découverte – Meta4, Besançon, France
+    description: Meta4 est une société informatique proposant des logiciels et services pour la gestion de la paie et le pilotage des ressources humaines
+    realised_tasks: Observation du fonctionnement de différents services - Assurance qualité, service technique et service d'envoi
+
+
+
+
+interests_section:
+  title: Centres d'intérêts
+  journeys:
+    title: Voyages
+    image_description: Carte
+  programming:
+    title: Programmation
+    image_description: Code
+  cinema:
+    title: Cinéma
+    image_description: Clap
+
+
+
+
+contact_section:
+  description: Si vous êtes intéressé(e) par mon profile ou si vous souhaitez obtenir plus d'informations, vous pouvez me contacter par mél, par téléphone, ou grâce au formulaire ci-dessous
+  sending_message_error: Impossible d'envoyer votre message. Veuillez réessayer plus tard.
+  sending_message_success: Votre message a bien été envoyé! Il sera traité le plus rapidement possible.
+  mail: Mél
+  object: Objet
+  message: Message
+  send: Envoyer
+  phone:
+    title: +33 (0)7.68.52.32.76
+    image_description: Téléphone
+    mail_address:
+      title: logan2.humbert@gmail.com
+      image_description: Mél
+    github:
+      title: GitHub
+      image_description: GitHub
+    linkedin:
+      title: LinkedIn
+      image_description: LinkedIn

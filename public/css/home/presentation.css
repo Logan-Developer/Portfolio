@@ -1,0 +1,138 @@
+.presentation-content {
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+}
+
+.presentation-grid {
+    display: grid;
+    padding: 20px;
+}
+
+.presentation-infos {
+
+    grid-area: presentation-infos;
+}
+
+#presentation-infos span {
+    font-weight: bold;
+}
+
+.presentation-resume {
+
+    grid-area: presentation-resume;
+}
+
+.presentation-cv {
+
+    grid-area: presentation-cv;
+    text-align: center;
+}
+
+.presentation-cv a {
+
+    padding: 5px;
+    color: black;
+    text-decoration: none;
+    border: 2px solid antiquewhite;
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
+
+.presentation-skills {
+
+    grid-area: presentation-skills;
+}
+
+.presentation-languages {
+
+    grid-area: presentation-languages;
+}
+
+.presentation-languages img {
+
+    max-width: 20%;
+}
+
+@media (max-width: 1000px) {
+
+    .presentation-grid {
+
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.4fr 0.8fr 0.2fr 1fr 0.4fr;
+        grid-template-areas: "presentation-infos"
+                             "presentation-resume"
+                             "presentation-cv"
+                             "presentation-skills"
+                             "presentation-languages";
+    }
+}
+
+@media (min-width: 1000px) {
+
+    .presentation-grid {
+
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 0.4fr 0.4fr 0.3fr 1fr;
+        grid-template-areas: "presentation-infos presentation-resume"
+                             "presentation-skills presentation-resume"
+                             "presentation-skills presentation-cv"
+                             "presentation-skills presentation-languages";
+        grid-column-gap: 80px;
+    }
+}
+
+.skillbar {
+    position:relative;
+    display: inline-block;
+    margin:15px 0;
+    width:100%;
+    background: #797979;
+    height:35px;
+    border-radius:20px;
+}
+
+.skillbar-title {
+    position:absolute;
+    top:0;
+    left:0;
+    width:120px;
+    font-weight:bold;
+    font-size:13px;
+    color:white;
+    background-color: #797979;
+    border-radius: 20px;
+    padding:0 20px;
+    height:35px;
+    line-height:35px;
+}
+
+.skillbar-bar {
+    height:35px;
+    width:0;
+    border-radius: 20px;
+    background: antiquewhite;
+    display: inline-block;
+}
+
+.skillbar-progress {
+    position:absolute;
+    top:0;
+    right:0;
+    font-weight:bold;
+    font-size:13px;
+    color: white;
+    height:35px;
+    line-height:35px;
+    padding-right: 20px;
+}
+
+.skill-bar-percent {
+    position:absolute;
+    right:10px;
+    top:0;
+    font-size:11px;
+    height:35px;
+    line-height:35px;
+    color: black;
+}
